@@ -4,10 +4,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/FIT5032-WK12/' : '/'
-}
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), vueDevTools()],
